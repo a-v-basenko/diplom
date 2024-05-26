@@ -1,0 +1,8 @@
+spring.application.name=validator-application
+spring.datasource.url=jdbc:postgresql://database_server_ip:port/pt_fps
+spring.datasource.username=validator_app
+spring.datasource.password=password
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=update
+validator.id=your_validator_id
